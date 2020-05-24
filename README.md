@@ -11,7 +11,7 @@
 
 
 
-# 🚅 Find the closest value using binary search v2020.4.130
+# 🚅 Find the closest value using binary search v2020.4.131
 
 
 
@@ -54,6 +54,9 @@ npm install p3x-binary-search-closest
 Is you have mocha, you can test like this, it has a few use cases (you can see, before I execute this micro-service, I sort the array):
 
 ```js
+const assert = require('assert');
+const bsClosest = require('p3x-binary-search-closest')
+
 describe('binary search closest', () => {
 
     it('binary search closest by array value, when it is exact match', () => {
@@ -299,7 +302,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.130
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.131
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 
