@@ -1,4 +1,3 @@
-const { Worker } = require('worker_threads');
 const util = require('./util')
 
 module.exports = {
