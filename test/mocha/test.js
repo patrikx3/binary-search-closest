@@ -181,7 +181,7 @@ describe('binary search closest', () => {
     })
 
 
-    it('binary search closest by array with a property, but find the closest value', async() => {
+    it('using thread worker, binary search closest by array with a property, but find the closest value', async() => {
         const arr = [
             {
                 id: 4538765,

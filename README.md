@@ -11,7 +11,7 @@
 
 
 
-# 🚅 Find the closest value using binary search v2020.4.134
+# 🚅 Find the closest value using binary search v2020.4.135
 
 
 
@@ -41,7 +41,9 @@ https://nodejs.org/en/download/package-manager/
 [//]: #@corifeus-header:end
 
 
-Before you want to find the closest value in an array of objects or an array by values, it is important, so that you sort your array by the searching 
+Before you want to find the closest value in an array of objects or an array by values, it is important, so that you sort your array by the searching.
+  
+If you have a big array, you can use a worker thread as in the code is on the bottom (4 ways to do it / same as in the event loop, but without blocking.)  
 
 # Installation
 
@@ -238,7 +240,7 @@ describe('binary search closest', () => {
     })
 
 
-    it('binary search closest by array with a property, but find the closest value', async() => {
+    it('using thread worker, binary search closest by array with a property, but find the closest value', async() => {
         const arr = [
             {
                 id: 4538765,
@@ -304,7 +306,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.134
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.135
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 
