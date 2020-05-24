@@ -1,6 +1,6 @@
 {
     "name": "p3x-binary-search-closest",
-    "version": "2020.4.131",
+    "version": "2020.4.132",
     "corifeus": {
         "icon": "fas fa-train",
         "prefix": "p3x-",
@@ -22,7 +22,13 @@
         "url": "git+https://github.com/patrikx3/binary-search-closest.git"
     },
     "keywords": [
-        "search"
+        "search",
+        "binary-search",
+        "binary",
+        "value",
+        "object",
+        "property",
+        "closest"
     ],
     "author": "Patrik Laszlo <alabard@gmail.com>",
     "license": "MIT",
