@@ -1,6 +1,6 @@
 {
     "name": "p3x-binary-search-closest",
-    "version": "2020.4.132",
+    "version": "2020.4.133",
     "corifeus": {
         "icon": "fas fa-train",
         "prefix": "p3x-",
@@ -36,7 +36,7 @@
         "url": "https://github.com/patrikx3/binary-search-closest/issues"
     },
     "homepage": "https://corifeus.com/binary-search-closest",
-    "dependencies": {
+    "devDependencies": {
         "corifeus-builder": "^2020.4.205"
     },
     "engines": {
