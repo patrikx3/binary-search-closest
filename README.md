@@ -11,7 +11,7 @@
 
 
 
-# 🚅 Find the closest value using binary search v2020.4.135
+# 🚅 Find the closest value using binary search v2020.4.137
 
 
 
@@ -66,7 +66,7 @@ describe('binary search closest', () => {
     it('binary search closest by array value, when it is exact match', () => {
         const arr = [6, 9, 8, 4, 1, 7, 3, 10, 5, 2]
         arr.sort()
-        const foundValue = bsClosest.binarySearchByValue(arr, 5)
+        const foundValue = bsClosest.byValue(arr, 5)
         assert.ok(foundValue === 5)
     })
 
@@ -74,7 +74,7 @@ describe('binary search closest', () => {
     it('binary search closest by array value, when it is not existing, but find the closest value', () => {
         const arr = [9, 8, 4, 1, 7, 3, 10, 5, 2]
         arr.sort()
-        const foundValue = bsClosest.binarySearchByValue(arr, 6)
+        const foundValue = bsClosest.byValue(arr, 6)
         assert.ok(foundValue === 7)
     })
 
@@ -118,7 +118,7 @@ describe('binary search closest', () => {
             },
         ]
         arr.sort((a, b) => (a.value > b.value) ? 1 : -1)
-        const foundValue = bsClosest.binarySearchByProperty(arr, 7, 'value')
+        const foundValue = bsClosest.byProperty(arr, 7, 'value')
         assert.ok(foundValue.value === 7)
     })
 
@@ -163,7 +163,7 @@ describe('binary search closest', () => {
             },
         ]
         arr.sort((a, b) => (a.value > b.value) ? 1 : -1)
-        const foundValue = bsClosest.binarySearchByProperty(arr, 5, 'value')
+        const foundValue = bsClosest.byProperty(arr, 5, 'value')
         assert.ok(foundValue.value === 6)
     })
 
@@ -306,7 +306,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.135
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.137
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 

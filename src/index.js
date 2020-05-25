@@ -1,7 +1,7 @@
 const util = require('./util')
 
 module.exports = {
-    binarySearchByProperty: util.binarySearchByProperty,
-    binarySearchByValue: util.binarySearchByValue,
+    byProperty: util.binarySearchByProperty,
+    byValue: util.binarySearchByValue,
     worker: util.worker,
 }
