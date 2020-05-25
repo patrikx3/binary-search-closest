@@ -1,8 +1,6 @@
-const util = require('./util')
-const utilWorker = require('./util.worker')
+const util = require('./src/util')
 
 module.exports = {
     byProperty: util.binarySearchByProperty,
     byValue: util.binarySearchByValue,
-    worker: utilWorker.worker,
 }

@@ -11,7 +11,7 @@
 
 
 
-# 🚅 Find the closest value using binary search v2020.4.138
+# 🚅 Find the closest value using binary search v2020.4.140
 
 
 
@@ -49,19 +49,27 @@ If you have a big array, you can use a worker thread as in the code is on the bo
 
 # Installation
 
+#### For NodeJs
 ```bash
 npm install p3x-binary-search-closest
 ```
-
 # Usage
 
 Is you have mocha, you can test like this, it has a few use cases (you can see, before I execute this micro-service, I sort the array):
 
 **Note:** Given npmjs.com has a narrow page, it is better to see the code on https://corifeus.com/binary-search-closest or https://github.com/patrikx3/binary-search-closest  
 
+
+
 ```js
 const assert = require('assert');
+
+// for only browser (remove worker thread as is NodeJs Specific)
+const bsClosest = require('p3x-binary-search-closest/browser')
+
+// for full blown functions
 const bsClosest = require('p3x-binary-search-closest')
+
 
 describe('binary search closest', () => {
 
@@ -308,7 +316,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.138
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.140
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 
