@@ -11,7 +11,7 @@
 
 
 
-# 🚅 Find the closest value using binary search v2020.4.140
+# 🚅 Find the closest value using binary search v2020.4.141
 
 
 
@@ -25,7 +25,7 @@
 
 ### Built on NodeJs
 ```txt
-v12.16.3
+v12.17.0
 ```
 
 The ```async``` and ```await``` keywords are required. Only the latest LTS variant is supported.
@@ -41,7 +41,7 @@ https://nodejs.org/en/download/package-manager/
 [//]: #@corifeus-header:end
 
 
-Before, you want to find the closest value in an array of objects or an array by values, it is important, so that you sort your array by the searching, otherwise will not work. Example below shows how it works.
+Before, you want to find the closest value in an array of objects or an array by values, it is important, so that you sort in ascending order, otherwise will not work. Example below shows how it works.
 
 The search algorithm is based on https://www.geeksforgeeks.org/find-closest-number-array/.
   
@@ -59,7 +59,7 @@ Is you have mocha, you can test like this, it has a few use cases (you can see, 
 
 **Note:** Given npmjs.com has a narrow page, it is better to see the code on https://corifeus.com/binary-search-closest or https://github.com/patrikx3/binary-search-closest  
 
-
+Of course, when using a worker thread, the execution is about 20-25ms longer, then when we are in the event loop, so the worker thread is valid when we are working on a big dataset.
 
 ```js
 const assert = require('assert');
@@ -316,7 +316,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.140
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.141
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 

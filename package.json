@@ -1,13 +1,13 @@
 {
     "name": "p3x-binary-search-closest",
-    "version": "2020.4.140",
+    "version": "2020.4.141",
     "corifeus": {
         "icon": "fas fa-train",
         "prefix": "p3x-",
         "publish": true,
         "type": "p3x",
         "code": "Bullet",
-        "nodejs": "v12.16.3",
+        "nodejs": "v12.17.0",
         "opencollective": false,
         "reponame": "binary-search-closest",
         "build": true
