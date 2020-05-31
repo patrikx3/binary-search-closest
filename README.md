@@ -11,7 +11,7 @@
 
 
 
-# 🚅 Find the closest or exact value using binary search v2020.4.144
+# 🚅 Find the closest or exact value using binary search v2020.4.145
 
 
 
@@ -41,7 +41,7 @@ https://nodejs.org/en/download/package-manager/
 [//]: #@corifeus-header:end
 
 
-Before, you want to find the closest value in an array of objects or an array by values, it is important, so that you sort in ascending order, otherwise, it will not work. Example below shows how it works.
+Before, you want to find the closest or exact value in an array of objects or an array by values, it is important, so that you sort in ascending order, otherwise, it will not work. Example below shows how it works.
 
 The search algorithm is based on https://www.geeksforgeeks.org/find-closest-number-array/.
   
@@ -316,7 +316,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.144
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2020.4.145
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 
