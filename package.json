@@ -1,6 +1,6 @@
 {
     "name": "p3x-binary-search-closest",
-    "version": "2020.4.142",
+    "version": "2020.4.144",
     "corifeus": {
         "icon": "fas fa-train",
         "prefix": "p3x-",
@@ -12,7 +12,7 @@
         "reponame": "binary-search-closest",
         "build": true
     },
-    "description": "🚅 Find the closest value using binary search",
+    "description": "🚅 Find the closest or exact value using binary search",
     "main": "src/index.js",
     "scripts": {
         "test": "grunt && mocha ./test/mocha/*.js"
@@ -28,7 +28,8 @@
         "value",
         "object",
         "property",
-        "closest"
+        "closest",
+        "exact"
     ],
     "author": "Patrik Laszlo <alabard@gmail.com>",
     "license": "MIT",

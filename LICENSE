@@ -1,7 +1,7 @@
 
-@license p3x-binary-search-closest v2020.4.139
+@license p3x-binary-search-closest v2020.4.143
   
-🚅 Find the closest value using binary search
+🚅 Find the closest or exact value using binary search
 
 https://corifeus.com/binary-search-closest
 
