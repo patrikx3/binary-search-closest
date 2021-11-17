@@ -11,14 +11,10 @@
 
 
 
-# 🚅 Find the closest or exact value using binary search v2021.10.154
+# 🚅 Find the closest or exact value using binary search v2021.10.157
 
 
 
-# Warning on 2021 November 17  
-All patrikx3.com, corifeus.com and sub-domains are offline.  
-Will come back again on 2021 November 18.  
-  
 **Bugs are evident™ - MATRIX️**
     
 
@@ -317,7 +313,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2021.10.154
+[**P3X-BINARY-SEARCH-CLOSEST**](https://corifeus.com/binary-search-closest) Build v2021.10.157
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 
