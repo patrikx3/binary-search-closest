@@ -1,6 +1,6 @@
 {
     "name": "p3x-binary-search-closest",
-    "version": "2023.10.110",
+    "version": "2023.10.118",
     "corifeus": {
         "icon": "fas fa-train",
         "prefix": "p3x-",
@@ -38,7 +38,7 @@
     },
     "homepage": "https://corifeus.com/binary-search-closest",
     "devDependencies": {
-        "corifeus-builder": "^2023.10.113"
+        "corifeus-builder": "^2023.10.121"
     },
     "engines": {
         "node": ">=12.13.0"
