@@ -38,7 +38,7 @@
     },
     "homepage": "https://corifeus.com/binary-search-closest",
     "devDependencies": {
-        "corifeus-builder": "^2023.10.125"
+        "corifeus-builder": "^2023.10.129"
     },
     "engines": {
         "node": ">=12.13.0"
