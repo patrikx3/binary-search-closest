@@ -37,7 +37,7 @@ v20.11.0
 [//]: #@corifeus-header:end
 
 
-Before, you want to find the closest or exact value in an [array of objects](https://www.scaler.com/topics/javascript-sort-an-array-of-objects/) or an array by values, it is important, so that you sort in ascending order, otherwise, it will not work. Example below shows how it works.
+Before, you want to find the closest or exact value in an array of objects or an array by values, it is important, so that you sort in ascending order, otherwise, it will not work. Example below shows how it works.
 
 The search algorithm is based on https://www.geeksforgeeks.org/find-closest-number-array/.
   
