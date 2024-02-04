@@ -130,6 +130,22 @@ describe('binary search closest', () => {
         assert.ok(foundValue === 1)
     })
 
+    it('testing if it works with an error', async() => {
+        let error = null
+        try {
+            const arr = [9, 8, 4, 1, 7, 3, 10, 5, 2]
+            arr.sort()
+            const foundValue = await bsClosest.worker({
+                type: 'value2',
+                target: -1,
+                array: arr,
+            })    
+        } catch(e) {
+            error = e
+        }
+        assert.ok(error !== null)
+    })
+
 
     it('using thread worker, binary search closest by array with a property, when it is exact match', async() => {
         const arr = [
