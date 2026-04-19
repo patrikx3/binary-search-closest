@@ -1,5 +1,3 @@
-const utils = require('corifeus-utils');
-
 module.exports = (grunt) => {
 
     const builder = require(`corifeus-builder`);
