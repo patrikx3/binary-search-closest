@@ -1,13 +1,13 @@
 {
     "name": "p3x-binary-search-closest",
-    "version": "2026.4.134",
+    "version": "2026.4.141",
     "corifeus": {
         "icon": "fas fa-train",
         "prefix": "p3x-",
         "publish": true,
         "type": "p3x",
         "code": "Bullet",
-        "nodejs": "v24.14.1",
+        "nodejs": "v24.16.0",
         "opencollective": false,
         "reponame": "binary-search-closest",
         "build": true
@@ -38,7 +38,7 @@
     },
     "homepage": "https://corifeus.com/binary-search-closest",
     "devDependencies": {
-        "corifeus-builder": "^2026.4.154"
+        "corifeus-builder": "^2026.4.161"
     },
     "engines": {
         "node": ">=12.13.0"
